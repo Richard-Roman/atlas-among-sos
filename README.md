@@ -121,6 +121,6 @@ Consulta el archivo de [INSTALACION](./INSTALL.md) para más detalles.
 Este proyecto está licenciado bajo la Licencia MIT (MIT License).  
 Puedes usarlo, modificarlo y distribuirlo libremente siempre que conserves el aviso de copyright original.
 
-Consulta el archivo [LICENSE](./LICENSE) para más detalles.
+Consulta el archivo [LICENSE](./LICENSE.txt) para más detalles.
 
 
