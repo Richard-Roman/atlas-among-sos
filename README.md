@@ -83,8 +83,9 @@ Reducir el tiempo de respuesta de los agentes de seguridad ciudadana mediante se
 
 ---
 
-## 👨‍💻 Equipo de Desarrollo - Estudiantes del 7° ciclo de Ingeniería de Sistemas e Informática.
+## 👨‍💻 Equipo de Desarrollo
 
+### Estudiantes del 7° ciclo de Ingeniería de Sistemas e Informática.
 - Jean Bruno Llanos Huamán
 - [Miranda Shapiama Kent Axel](https://github.com/KentAxel)
 - [Curay Acosta Jordy Jhorkaet]((https://github.com/Jhorka029))
