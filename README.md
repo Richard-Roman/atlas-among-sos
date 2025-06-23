@@ -62,7 +62,7 @@ Reducir el tiempo de respuesta de los agentes de seguridad ciudadana mediante se
 
 ---
 
-## 💰 Presupuesto Estimado
+## 💰 Recursos
 
 | Recurso                        | Cantidad |
 |-------------------------------|----------|
