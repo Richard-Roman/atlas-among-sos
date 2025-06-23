@@ -86,9 +86,9 @@ Reducir el tiempo de respuesta de los agentes de seguridad ciudadana mediante se
 ## 👨‍💻 Equipo de Desarrollo - Estudiantes del 7° ciclo de Ingeniería de Sistemas e Informática.
 
 - Jean Bruno Llanos Huamán
-- Miranda Shapiama Kent Axel
-- Curay Acosta Jordy Jhorkaet
-- Roman Tocto Richard Adán
+- [Miranda Shapiama Kent Axel](https://github.com/KentAxel)
+- [Curay Acosta Jordy Jhorkaet]((https://github.com/Jhorka029))
+- [Roman Tocto Richard Adán](https://github.com/Richard-Roman)
 
 Asesor: Ing. Segundo Roger Ramírez Shupingahua 
 ---
@@ -96,6 +96,13 @@ Asesor: Ing. Segundo Roger Ramírez Shupingahua
 ## 📚 Referencias
 
 - Radio Tropical (2023). *183 cámaras de seguridad en Tarapoto*. [Radio Tropical](https://radiotropical.pe/183-camaras-de-seguridad-vienen-siendo-instaladas-en-tarapoto-morales-y-la-banda-de-shilcayo)
+
+---
+
+## 📚 Instalación y prueba
+
+Pasos para  ejecutar el proyecto:
+Consulta el archivo de [INSTALACION](./INSTALL) para más detalles.
 
 ---
 
