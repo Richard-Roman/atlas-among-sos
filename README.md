@@ -102,7 +102,7 @@ Asesor: Ing. Segundo Roger Ramírez Shupingahua
 ## 📚 Instalación y prueba
 
 Pasos para  ejecutar el proyecto:
-Consulta el archivo de [INSTALACION](./INSTALL) para más detalles.
+Consulta el archivo de [INSTALACION](./INSTALL.md) para más detalles.
 
 ---
 
