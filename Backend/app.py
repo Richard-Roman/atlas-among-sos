@@ -27,9 +27,9 @@ app = FastAPI()
 # 📦 Datos de conexión MySQL (ajusta según tu caso)
 db_config = {
     "host": "127.0.0.1",
-    "user": "cevicherias_amoung",
-    "password": "bruno69XION7612",
-    "database": "cevicherias_amoung_sos",
+    "user": "amoung",
+    "password": "XION7612",
+    "database": "amoung_sos",
     "port": 3306
 }
 
