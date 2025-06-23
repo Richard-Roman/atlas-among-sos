@@ -13,7 +13,7 @@ frecuencia_muestreo = 16000
 duracion_segundos = 15
 total_muestras = frecuencia_muestreo * duracion_segundos
 bytes_esperados = total_muestras * 2  # 16-bit PCM (2 bytes por muestra)
-ws_url = "ws://spring.informaticapp.com:1314/ws/audio"
+ws_url = "ws://tu_server.com:puerto/ws/audio"
 
 # 🎛️ Filtros y normalización
 def filtro_pasabajas(data, cutoff=7000, fs=16000, orden=5):
