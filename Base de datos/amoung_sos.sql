@@ -35,40 +35,6 @@ CREATE TABLE `alertas` (
   `tipo_alerta` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
---
--- Volcado de datos para la tabla `alertas`
---
-
-INSERT INTO `alertas` (`id_alerta`, `id_dispositivo`, `fecha`, `hora`, `tipo_alerta`) VALUES
-(1, 1, '2025-06-19', '14:35:00', 'Disparo'),
-(6, 1, '2025-06-14', '13:29:00', 'Disparo'),
-(7, 1, '2025-06-14', '12:21:00', 'Disparo'),
-(8, 1, '2025-06-08', '12:20:00', 'Disparo'),
-(9, 2, '2025-06-07', '12:30:00', 'Disparo'),
-(12, 1, '2025-06-19', '09:11:00', 'Disparo'),
-(13, 2, '2025-05-18', '07:12:00', 'Disparo'),
-(14, 1, '2025-06-20', '03:38:04', 'disparo'),
-(21, 1, '2025-06-20', '03:46:21', 'disparo'),
-(22, 1, '2025-06-20', '03:51:59', 'disparo'),
-(23, 1, '2025-06-20', '03:53:22', 'disparo'),
-(24, 1, '2025-06-20', '03:54:25', 'disparo'),
-(25, 1, '2025-06-20', '03:56:04', 'disparo'),
-(26, 1, '2025-06-20', '04:04:39', 'disparo'),
-(27, 1, '2025-06-20', '04:05:38', 'disparo'),
-(28, 1, '2025-06-20', '04:06:52', 'disparo'),
-(29, 1, '2025-06-20', '04:14:30', 'disparo'),
-(30, 1, '2025-06-20', '04:18:18', 'disparo'),
-(31, 1, '2025-06-20', '04:22:54', 'disparo'),
-(32, 1, '2025-06-20', '04:25:43', 'disparo'),
-(33, 1, '2025-06-20', '04:26:47', 'disparo'),
-(34, 1, '2025-06-20', '04:36:53', 'disparo'),
-(35, 1, '2025-06-20', '04:39:43', 'disparo'),
-(36, 1, '2025-06-20', '04:41:25', 'disparo'),
-(37, 1, '2025-06-20', '04:42:35', 'disparo'),
-(38, 1, '2025-06-20', '05:01:32', 'disparo'),
-(39, 1, '2025-06-20', '05:03:57', 'disparo');
-
--- --------------------------------------------------------
 
 --
 -- Estructura de tabla para la tabla `camaras`
@@ -81,17 +47,6 @@ CREATE TABLE `camaras` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
--- Volcado de datos para la tabla `camaras`
---
-
-INSERT INTO `camaras` (`id_camara`, `codigo`, `ubicacion`) VALUES
-(1, 'BAB', 'jr. circumbalacion tomate'),
-(2, 'BB2', 'jr. lima cumbaza'),
-(3, 'BA4', 'Jr. Progreso Morales');
-
--- --------------------------------------------------------
-
---
 -- Estructura de tabla para la tabla `dispositivosCamaras`
 --
 
@@ -99,17 +54,6 @@ CREATE TABLE `dispositivosCamaras` (
   `id_dispositivo` int(11) NOT NULL,
   `id_camara` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
-
---
--- Volcado de datos para la tabla `dispositivosCamaras`
---
-
-INSERT INTO `dispositivosCamaras` (`id_dispositivo`, `id_camara`) VALUES
-(1, 1),
-(1, 2),
-(1, 3);
-
--- --------------------------------------------------------
 
 --
 -- Estructura de tabla para la tabla `dispositivos_iot`
@@ -120,16 +64,6 @@ CREATE TABLE `dispositivos_iot` (
   `nombre` varchar(255) NOT NULL,
   `ubicacion` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
-
---
--- Volcado de datos para la tabla `dispositivos_iot`
---
-
-INSERT INTO `dispositivos_iot` (`id_dispositivo`, `nombre`, `ubicacion`) VALUES
-(1, 'Grabador Uno', 'jr. Cumbaza 745'),
-(2, 'Grabador 2', 'Jr. Los Proceres');
-
--- --------------------------------------------------------
 
 --
 -- Estructura de tabla para la tabla `usuarios`
@@ -143,18 +77,7 @@ CREATE TABLE `usuarios` (
   `estado` tinyint(1) DEFAULT 1
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
---
--- Volcado de datos para la tabla `usuarios`
---
 
-INSERT INTO `usuarios` (`idUsuario`, `username`, `password`, `nombre`, `estado`) VALUES
-(1, 'Ricardiño', '$2b$12$fJASB2YY1HKzDdybT0KaauGaBxOUbHUmIWxBnuTQypm3wCxhQB6X.', 'Richard Adan', 1),
-(2, 'Bebitaland', '$2b$12$21p1H5vLxB9fwUICJ8rw6OupISbBOM8eDUkxwhjyLpsS8BQVtdqfi', 'Bebita', 1),
-(3, 'kent', '$2b$12$YZYXw5SxY5.xe6qzk1T8uu2x6vrw2aOLAmbylIuStd/XpNa8yrzbe', 'Kent', 1);
-
---
--- Índices para tablas volcadas
---
 
 --
 -- Indices de la tabla `alertas`
