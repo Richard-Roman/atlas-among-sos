@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+mysql-connector-python
+pydantic
+bcrypt
+librosa
+numpy
+soundfile
+tensorflow
+starlette
