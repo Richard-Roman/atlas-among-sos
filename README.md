@@ -66,8 +66,8 @@ Reducir el tiempo de respuesta de los agentes de seguridad ciudadana mediante se
 
 | Recurso                        | Cantidad |
 |-------------------------------|----------|
-| ESP32                         | 2        | 
-| Sensores de sonido            | 2        | 
+| ESP32                         | 1        | 
+| Sensores de sonido            | 1        | 
 | Servicio de alojamiento web  | 1        | 
 | Desarrollo web + prototipado | 1        | 
 
